@@ -35,10 +35,10 @@ namespace Laba4._2_OOP
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -54,7 +54,7 @@ namespace Laba4._2_OOP
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(2, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(398, 469);
+            this.panel1.Size = new System.Drawing.Size(410, 469);
             this.panel1.TabIndex = 0;
             // 
             // textBox1
@@ -64,14 +64,19 @@ namespace Laba4._2_OOP
             this.textBox1.Size = new System.Drawing.Size(235, 31);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "6";
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(74, 285);
+            this.progressBar1.Location = new System.Drawing.Point(100, 297);
+            this.progressBar1.MarqueeAnimationSpeed = 500;
             this.progressBar1.Maximum = 1000;
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(232, 51);
+            this.progressBar1.Size = new System.Drawing.Size(180, 46);
+            this.progressBar1.Step = 1;
             this.progressBar1.TabIndex = 2;
+            this.progressBar1.Value = 6;
+            this.progressBar1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.progressBar1_MouseMove);
             // 
             // numericUpDown1
             // 
@@ -89,6 +94,7 @@ namespace Laba4._2_OOP
             0,
             0,
             0});
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // label1
             // 
@@ -107,10 +113,20 @@ namespace Laba4._2_OOP
             this.panel2.Controls.Add(this.textBox2);
             this.panel2.Controls.Add(this.numericUpDown2);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(399, 1);
+            this.panel2.Location = new System.Drawing.Point(406, 1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(405, 469);
+            this.panel2.Size = new System.Drawing.Size(398, 469);
             this.panel2.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(188, 297);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 30);
+            this.button1.TabIndex = 5;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // textBox2
             // 
@@ -146,17 +162,6 @@ namespace Laba4._2_OOP
             this.label2.Size = new System.Drawing.Size(336, 28);
             this.label2.TabIndex = 1;
             this.label2.Text = "Вторая группа объектов";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(188, 297);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 30);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // MainForm
             // 
