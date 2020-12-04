@@ -127,6 +127,7 @@ namespace Laba4._2_OOP
             this.button1.Size = new System.Drawing.Size(30, 30);
             this.button1.TabIndex = 5;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
@@ -135,6 +136,7 @@ namespace Laba4._2_OOP
             this.textBox2.Size = new System.Drawing.Size(235, 31);
             this.textBox2.TabIndex = 4;
             this.textBox2.Text = "30";
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             // 
             // numericUpDown2
             // 
@@ -152,6 +154,7 @@ namespace Laba4._2_OOP
             0,
             0,
             0});
+            this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
             // 
             // label2
             // 
