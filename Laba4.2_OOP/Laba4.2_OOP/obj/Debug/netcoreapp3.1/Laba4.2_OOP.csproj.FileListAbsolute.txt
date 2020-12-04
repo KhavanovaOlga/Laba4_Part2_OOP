@@ -1,0 +1,15 @@
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\bin\Debug\netcoreapp3.1\Laba4.2_OOP.exe
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\bin\Debug\netcoreapp3.1\Laba4.2_OOP.deps.json
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\bin\Debug\netcoreapp3.1\Laba4.2_OOP.runtimeconfig.json
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\bin\Debug\netcoreapp3.1\Laba4.2_OOP.runtimeconfig.dev.json
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\bin\Debug\netcoreapp3.1\Laba4.2_OOP.dll
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\bin\Debug\netcoreapp3.1\Laba4.2_OOP.pdb
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\obj\Debug\netcoreapp3.1\Laba4.2_OOP.csprojAssemblyReference.cache
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\obj\Debug\netcoreapp3.1\Laba4._2_OOP.MainForm.resources
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\obj\Debug\netcoreapp3.1\Laba4.2_OOP.csproj.GenerateResource.cache
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\obj\Debug\netcoreapp3.1\Laba4.2_OOP.AssemblyInfoInputs.cache
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\obj\Debug\netcoreapp3.1\Laba4.2_OOP.AssemblyInfo.cs
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\obj\Debug\netcoreapp3.1\Laba4.2_OOP.csproj.CoreCompileInputs.cache
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\obj\Debug\netcoreapp3.1\Laba4.2_OOP.dll
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\obj\Debug\netcoreapp3.1\Laba4.2_OOP.pdb
+C:\Users\79373\Desktop\Laba4.2_OOP\Laba4.2_OOP\Laba4.2_OOP\obj\Debug\netcoreapp3.1\Laba4.2_OOP.genruntimeconfig.cache
